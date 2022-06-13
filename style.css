@@ -50,3 +50,38 @@ nav ul li a {
 nav ul li a:hover {
   color: aquamarine;
 }
+
+.shop-title {
+  margin-top: 15%;
+  font-size: 17px;
+  letter-spacing: 1px;
+  line-height: 40px;
+}
+
+.shop-title h1 {
+  font-size: 75px;
+  line-height: 160px;
+}
+
+.shop-title a {
+  text-decoration: none;
+  color: aquamarine;
+  display: inline-block;
+  margin-top: 30px;
+  border: 2px solid aquamarine;
+  padding: 10px 30px;
+  border-radius: 6px;
+}
+
+.shop-title .button {
+  background: aquamarine;
+  color: rgb(40, 44, 159);
+  margin-left: 20px;
+}
+
+.keyboard-img {
+  position: absolute;
+  right: 3%;
+  bottom: 15%;
+  width: 550px;
+}

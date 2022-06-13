@@ -19,6 +19,27 @@
     </ul>
     <img src="./images/menu.png" alt="" class="menu-icon">
   </nav>
+  <div class="shop-title">
+    <h1>音にこだわる<span class="auto-input"></span></h1>
+    <p>
+      丹念に、そして精密に、打鍵音を意識して作られた
+      <br />
+      キーボードやマウスを販売する数少ないタイピング専門店です。
+    </p>
+    <a href="">Contact</a>
+    <a href="" class="button">Reserve</a>
+  </div>
+  <img src="./images/pc.png" alt="" class="keyboard-img">
 </div>
+<!-- ref: https://github.com/mattboldt/typed.js -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  new Typed('.auto-input', {
+    strings: ['キーボード', 'マウス', 'タイピング'],
+    loop: true,
+    typeSpeed: 140,
+    backSpeed: 140,
+  });
+</script>
 </body>
 </html>
